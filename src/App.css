@@ -1,38 +1,66 @@
-.App {
+body {
+  background-color: #F9E5EE;
+}
+
+h2 {
   text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #464741;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  text-align: center;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card {
+  background-color: #F2C4DA;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  margin-top: 45px;
+  border-radius: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.search-city {
+  box-shadow: 2px 4px 8px #00000033;
+  border-radius: 15px;
+  border: none;
+  margin: 10px;
+  padding: 8px;
+  font-size: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.btn {
+  box-shadow: 0px 0px 15px 5px #E58CB6;
+  border-radius: 8px;
+  border: none;
+  margin: 10px;
+  padding: 8px;
+  font-size: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn:hover {
+  background-color: #C7E0F6!important;
+  cursor: pointer;
+}
+
+.results {
+  text-align: left;
+  margin-left: 40px;
+  color: #464741;
+}
+
+.city {
+  font-size: 30px;
+}
+
+.temp {
+  font-size: 20px;
+}
+
+.desc {
+  font-style: italic;
 }
